@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class GreatestFactors{
+public static void main(String[]args){
+Scanner input = new Scanner(System.in);
+int number=input.nextInt();
+for(i=number-1;i>=1;i--)
+{
+if(i%2==0)
+System.out.println(i)
+break;
+}
+}
+}
